@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-mjmx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-zwsb-tenant/test-app-odmf/docker-devfile-sample-hello-world-mjmx@sha256:0b21c536c26c4bafb7023987f7e146cc99230d017ddc399cf724882d070bd6d3
+        name: container-image
+        resources: {}
+status: {}
