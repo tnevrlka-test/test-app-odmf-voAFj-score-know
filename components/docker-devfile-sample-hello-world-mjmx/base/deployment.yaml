@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-hello-world-mjmx
     spec:
       containers:
-      - image: image
+      - image: quay.io/tnevrlka-test/build-e2e-zwsb-tenant/test-app-odmf/docker-devfile-sample-hello-world-mjmx@sha256:0b21c536c26c4bafb7023987f7e146cc99230d017ddc399cf724882d070bd6d3
         imagePullPolicy: Always
         name: container-image
         ports:
